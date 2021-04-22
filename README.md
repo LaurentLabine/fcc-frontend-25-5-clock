@@ -1,12 +1,10 @@
 # freeCodeCamp Front End Development Libraries Projects - Project 5 - Build a 25 + 5 Clock
 
-Checkout the project here : https://laurentlabine.github.io/fcc-javascript-calculator/
-
-## What is this
+See the result here: https://laurentlabine.github.io/fcc-javascript-calculator/
 
 I built this project as part of freeCodeCamp's curriculum to learn and practice Responsive Web Design.
 
-## What Technologies have been used?
+## Technologies
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
