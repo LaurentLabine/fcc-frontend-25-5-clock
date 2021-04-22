@@ -1,6 +1,6 @@
 # freeCodeCamp Front End Development Libraries Projects - Project 5 - Build a 25 + 5 Clock
 
-## Checkout the project here : https://laurentlabine.github.io/fcc-javascript-calculator/
+Checkout the project here : https://laurentlabine.github.io/fcc-javascript-calculator/
 
 ## What is this
 
