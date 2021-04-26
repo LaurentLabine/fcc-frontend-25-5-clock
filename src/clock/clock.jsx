@@ -181,7 +181,7 @@ class Clock extends Component {
     return (
       <>
         <GlobalStyle />
-        <CounterContainer>
+        <AppContainer>
           <Border>
             <CounterContainer className="Clock">
               <TimerHeader
@@ -213,7 +213,7 @@ class Clock extends Component {
             </CounterContainer>
           </Border>
           <CodedBy>Designed and implemented by Laurent Labine in 2021</CodedBy>
-        </CounterContainer>
+        </AppContainer>
         <audio
           id="beep"
           preload="auto"
@@ -282,6 +282,12 @@ const Border = styled.div`
 const CounterContainer = styled.div`
   background: black;
   border-radius: 30px;
+`;
+
+const AppContainer = styled.div`
+  background: black;
+  border-radius: 30px;
+  width: 382px;
 `;
 
 const TimerHeaderStyle = styled.div`
@@ -356,11 +362,12 @@ const TimerValueDisplay = styled.span`
 
 const CodedBy = styled.span`
   display: flex;
-  font-size: 12px;
-  // width:100px;
+  font-size: 22px;
+  width: 100%px;
   transition: 0.5s all ease-out;
   justify-content: center;
   vertical-align: center;
+  text-align: center;
   background: -webkit-linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

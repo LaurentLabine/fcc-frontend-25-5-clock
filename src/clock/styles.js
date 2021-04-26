@@ -27,7 +27,6 @@ export default createGlobalStyle`
     }
 
     .glow-on-hover {
-      // width: 140px;
       height: 50px;
       border: none;
       outline: none;
